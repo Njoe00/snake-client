@@ -1,6 +1,8 @@
-const {connect, net}  = require("./client");
+const {connect, net, handleUserInput, setUpInput}  = require("./client");
 
 
 
 connect;
 net; 
+handleUserInput;
+setUpInput;
