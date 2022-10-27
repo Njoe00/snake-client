@@ -1,8 +1,9 @@
-const {connect, net, handleUserInput, setUpInput}  = require("./client");
+const { connect }  = require("./client");
+const { setUpInput } = require("./input");
 
+console.log("Connecting...");
 
+const connection = connect;
 
-connect;
-net; 
-handleUserInput;
-setUpInput;
+const setUpInputs = setUpInput;
+
